@@ -1,5 +1,14 @@
 # auth
 
+```sh
+yarn install
+yarn dev
+open http://localhost:4001/auth
+# will redirct to http://localhost:4001/api/auth/signin
+# username = ilan
+# password = ilan123
+```
+
 ## links
 
 - https://sidebase.io/nuxt-auth/
