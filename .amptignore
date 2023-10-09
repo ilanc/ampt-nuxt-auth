@@ -1,0 +1,6 @@
+.git/
+.nuxt/
+node_modules/
+*.vue
+.npmrc
+README.md
