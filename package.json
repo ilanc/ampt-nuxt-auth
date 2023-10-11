@@ -12,10 +12,13 @@
     "fix:prettier": "prettier \"**/*.{ts,js,cjs,mjs,jsx,json,css,md,html,vue}\" --write",
     "fix:lint": "eslint \"**/*.{js,cjs,mjs}\"",
     "\n========== deploy ==========": "",
-    "ampt:deploy": "ampt deploy --region eu-west-1"
+    "ampt:deploy": "ampt deploy --region eu-west-1",
+    "\n========== scripts ==========": "",
+    "ampt:seed": "node ./scripts/data/seed.mjs",
+    "ampt:test": "node ./scripts/data/test.js"
   },
   "dependencies": {
-    "@ampt/data": "^1.0.1",
+    "@ampt/data": "1.0.1",
     "@ampt/nuxt": "1.0.1"
   },
   "devDependencies": {
