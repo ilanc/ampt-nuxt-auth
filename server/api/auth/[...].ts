@@ -1,8 +1,6 @@
 import CredentialsProvider from "next-auth/providers/credentials";
 // import GithubProvider from "next-auth/providers/github";
 import { NuxtAuthHandler } from "#auth";
-// import { params } from "@ampt/sdk";
-// params().export(["AUTH_SECRET", "NEXTAUTH_SECRET", "AUTH_ORIGIN", "NEXTAUTH_URL"]);
 
 // see:
 // - https://sidebase.io/nuxt-auth/configuration/nuxt-auth-handler

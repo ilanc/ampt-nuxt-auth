@@ -1,5 +1,4 @@
 .git/
 .nuxt/
-*.vue
 .npmrc
 README.md
