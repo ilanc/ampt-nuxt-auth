@@ -15,6 +15,7 @@
     "ampt:deploy": "ampt deploy --region eu-west-1"
   },
   "dependencies": {
+    "@ampt/data": "^1.0.1",
     "@ampt/nuxt": "1.0.1"
   },
   "devDependencies": {

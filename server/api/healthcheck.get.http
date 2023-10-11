@@ -1,3 +1,4 @@
-@url = http://localhost:3000/api/healthcheck
+# @url = http://localhost:3000/api/healthcheck
+@url = https://splendid-build-xgahuc.ampt.app/api/healthcheck
 
 GET {{url}} HTTP/1.1

@@ -15,6 +15,13 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@ampt/data@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ampt/data/-/data-1.0.1.tgz#8d5795787da76e04d5c4bd3cdfef98b2abb397a6"
+  integrity sha512-UoE98Ueit7zX2j5saE8MFU787CIRigLzxo5ztpX3nkEW/xapgTc/ZSkrRwHaS3Xt8p+E+Gt31/siGXojhjqOHg==
+  dependencies:
+    "@ampt/sdk" "^1.0.1"
+
 "@ampt/nuxt@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@ampt/nuxt/-/nuxt-1.0.1.tgz#aa1a2e644a95432c68720d11bebffd1e5cd9bbaa"
