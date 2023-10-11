@@ -1,8 +1,10 @@
 import { params } from "@ampt/sdk";
 if (process.env.NODE_ENV === "development") {
   // use .env
-  process.env.AUTH_ORIGIN = "http://localhost:4001";
-  process.env.NEXTAUTH_URL = "http://localhost:4001";
+  // process.env.AUTH_ORIGIN = "http://localhost:4001";
+  // process.env.NEXTAUTH_URL = "http://localhost:4001";
+  process.env.AUTH_ORIGIN = "https://serverless-build-6dzt2c.ampt.app";
+  process.env.NEXTAUTH_URL = "https://serverless-build-6dzt2c.ampt.app";
 
   console.log(
     "----------------------------------------\nstarting server locally with env:\n",
