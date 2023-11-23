@@ -2,7 +2,7 @@
 
 ```sh
 yarn install
-yarn dev
+yarn ampt:dev
 open http://localhost:4001/auth
 # will redirct to http://localhost:4001/api/auth/signin
 # username = ilan
